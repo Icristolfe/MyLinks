@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { FaGithub,FaWhatsapp,FaLinkedin,FaFilePdf } from 'react-icons/fa';
+import { FaGithub,FaWhatsapp,FaLinkedin,FaFacebook } from 'react-icons/fa';
 
 import {
   Body,
@@ -19,7 +19,7 @@ function App() {
       <Container>
       <h1>My Links</h1>
       <div> 
-      <button><a href="https://wa.me/+5527997679661" target="_blanked"><FaWhatsapp/><br/>Whatsapp</a></button>
+      <button><a href="https://wa.me/+5527997679661" target="_blanked"><FaWhatsapp /><br/>Whatsapp</a></button>
       </div>
 
       <div> 
@@ -31,7 +31,7 @@ function App() {
       </div>
 
       <div> 
-      <button><a href="https://drive.google.com/file/d/15M4TiwlQmJeqRMGIkQEi0GQUU1GXyzEQ/view?usp=sharing" target="_blanked"><FaFilePdf/> <br/>Currículo</a></button>
+      <button><a href="https://www.facebook.com/icaro.cristolfe" target="_blanked"><FaFacebook/> <br/>Facebook</a></button>
       </div>
 
       </Container>

@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
-export const Body = styled.div `
-background-color:#000000;
+export const Body = styled.div`
 width:100%
 ;
 height:100%;
@@ -12,10 +11,9 @@ padding-top:25px;
 
 `
 
-export const Container = styled.div `
+export const Container = styled.div`
 width: 400px;
 height: 100vh;
-background: #000000;
 border-radius: 14px;
 border:none;
 outline:none;
@@ -25,8 +23,8 @@ align-items:center;
 color:#EEEEEE;
 
     h1 {
-        margin-bottom:50px;
-        font-size:40px;
+        margin-bottom: 25px;
+        font-size: 30px;
         }
 
         button {
@@ -41,7 +39,7 @@ color:#EEEEEE;
             flex-direction:column;
             border-radius:50%;
             border:none;
-            margin-bottom: 50px;
+            margin-bottom: 30px;
 
             &:hover {
                 opacity:0.7;
@@ -56,5 +54,10 @@ color:#EEEEEE;
             outline:none;
             text-decoration:none;
             color:#EEEEEE;
+            background: none;
+        }
+
+        svg {
+            background:none;
         }
 `
